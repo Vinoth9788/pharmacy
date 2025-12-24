@@ -38,7 +38,7 @@ function displayMedicines(medicines) {
             <p class="medicine-category"><i class="fas fa-tag"></i> ${medicine.category}</p>
             <p class="medicine-usage">${medicine.usage}</p>
             <div class="medicine-footer">
-                <span class="medicine-price">$${medicine.price.toFixed(2)}</span>
+                <span class="medicine-price">₹${medicine.price.toFixed(2)}</span>
                 <button class="btn-info" onclick="showMedicineDetails(${medicine.id})">
                     <i class="fas fa-info-circle"></i> Details
                 </button>
@@ -90,7 +90,7 @@ function showMedicineDetails(medicineId) {
             <div class="modal-body">
                 <div class="modal-info">
                     <p><strong>Category:</strong> ${medicine.category}</p>
-                    <p><strong>Price:</strong> $${medicine.price.toFixed(2)}</p>
+                    <p><strong>Price:</strong> ₹${medicine.price.toFixed(2)}</p>
                 </div>
                 <div class="modal-usage">
                     <h3>Usage Instructions:</h3>

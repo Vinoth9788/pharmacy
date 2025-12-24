@@ -61,7 +61,7 @@ async function loadFeaturedMedicines() {
                 <p class="medicine-category">${medicine.category}</p>
                 <p class="medicine-usage">${medicine.usage.substring(0, 60)}...</p>
                 <div class="medicine-footer">
-                    <span class="medicine-price">$${medicine.price}</span>
+                    <span class="medicine-price">₹${medicine.price}</span>
                     <button class="btn-info" onclick="showMedicineInfo(${medicine.id})">
                         <i class="fas fa-info-circle"></i>
                     </button>
@@ -81,7 +81,7 @@ function showMedicineInfo(medicineId) {
         .then(medicines => {
             const medicine = medicines.find(m => m.id === medicineId);
             if (medicine) {
-                alert(`${medicine.name}\n\nCategory: ${medicine.category}\nPrice: $${medicine.price}\n\nUsage:\n${medicine.usage}\n\nNote: Please consult a doctor before taking any medication.`);
+                alert(`${medicine.name}\n\nCategory: ${medicine.category}\nPrice: ₹${medicine.price}\n\nUsage:\n${medicine.usage}\n\nNote: Please consult a doctor before taking any medication.`);
             }
         })
         .catch(error => console.error('Error:', error));
