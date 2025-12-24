@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "name": "Paracetamol 500mg",
+        "category": "Tablet",
+        "price": 5.99,
+        "usage": "Pain relief and fever reducer. Take 1-2 tablets every 4-6 hours as needed.",
+        "image": "💊",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Amoxicillin 250mg",
+        "category": "Capsule",
+        "price": 12.99,
+        "usage": "Antibiotic for bacterial infections. Take as prescribed by doctor, usually 3 times daily.",
+        "image": "💊",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "name": "Ibuprofen 400mg",
+        "category": "Tablet",
+        "price": 7.99,
+        "usage": "Anti-inflammatory and pain reliever. Take with food, 1 tablet every 6-8 hours.",
+        "image": "💊",
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "Cough Syrup (Dextromethorphan)",
+        "category": "Syrup",
+        "price": 9.99,
+        "usage": "Relief from dry cough. Adults: 10ml every 6-8 hours. Children: Consult doctor.",
+        "image": "🧴",
+        "featured": true
+    },
+    {
+        "id": 5,
+        "name": "Vitamin D3 1000 IU",
+        "category": "Tablet",
+        "price": 15.99,
+        "usage": "Dietary supplement for bone health. Take 1 tablet daily with meal.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 6,
+        "name": "Omeprazole 20mg",
+        "category": "Capsule",
+        "price": 18.99,
+        "usage": "Treats acid reflux and heartburn. Take 1 capsule daily before breakfast.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 7,
+        "name": "Cetirizine 10mg",
+        "category": "Tablet",
+        "price": 8.99,
+        "usage": "Antihistamine for allergies. Take 1 tablet daily, preferably in the evening.",
+        "image": "💊",
+        "featured": true
+    },
+    {
+        "id": 8,
+        "name": "Aspirin 75mg",
+        "category": "Tablet",
+        "price": 6.99,
+        "usage": "Blood thinner for heart health. Take 1 tablet daily as directed by doctor.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 9,
+        "name": "Insulin Injection",
+        "category": "Injection",
+        "price": 45.99,
+        "usage": "For diabetes management. Dosage as prescribed by doctor. Refrigerate after opening.",
+        "image": "💉",
+        "featured": false
+    },
+    {
+        "id": 10,
+        "name": "Multivitamin Complex",
+        "category": "Tablet",
+        "price": 22.99,
+        "usage": "Daily nutritional supplement. Take 1 tablet with breakfast.",
+        "image": "💊",
+        "featured": true
+    },
+    {
+        "id": 11,
+        "name": "Antacid Syrup",
+        "category": "Syrup",
+        "price": 7.99,
+        "usage": "Relief from acidity and indigestion. Take 10ml after meals or when needed.",
+        "image": "🧴",
+        "featured": false
+    },
+    {
+        "id": 12,
+        "name": "Metformin 500mg",
+        "category": "Tablet",
+        "price": 14.99,
+        "usage": "Type 2 diabetes management. Take with meals as prescribed by doctor.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 13,
+        "name": "Hydrocortisone Cream 1%",
+        "category": "Ointment",
+        "price": 11.99,
+        "usage": "Treats skin inflammation and itching. Apply thin layer to affected area 2-3 times daily.",
+        "image": "🧴",
+        "featured": false
+    },
+    {
+        "id": 14,
+        "name": "Loratadine 10mg",
+        "category": "Tablet",
+        "price": 9.99,
+        "usage": "24-hour allergy relief. Take 1 tablet once daily.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 15,
+        "name": "Salbutamol Inhaler",
+        "category": "Injection",
+        "price": 25.99,
+        "usage": "Asthma relief inhaler. Use as needed for breathing difficulty, 1-2 puffs.",
+        "image": "💉",
+        "featured": false
+    },
+    {
+        "id": 16,
+        "name": "Calcium + Vitamin D",
+        "category": "Tablet",
+        "price": 16.99,
+        "usage": "Bone health supplement. Take 1 tablet twice daily with meals.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 17,
+        "name": "Antibiotic Ointment",
+        "category": "Ointment",
+        "price": 8.99,
+        "usage": "Prevents infection in minor cuts and burns. Apply to affected area 2-3 times daily.",
+        "image": "🧴",
+        "featured": false
+    },
+    {
+        "id": 18,
+        "name": "Diphenhydramine 25mg",
+        "category": "Capsule",
+        "price": 7.99,
+        "usage": "Antihistamine and sleep aid. Take 1-2 capsules at bedtime.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 19,
+        "name": "Zinc Sulfate 50mg",
+        "category": "Tablet",
+        "price": 12.99,
+        "usage": "Immune system support. Take 1 tablet daily with food.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 20,
+        "name": "Levocetirizine 5mg",
+        "category": "Tablet",
+        "price": 10.99,
+        "usage": "Advanced allergy relief. Take 1 tablet once daily in evening.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 21,
+        "name": "Children's Fever Syrup",
+        "category": "Syrup",
+        "price": 8.99,
+        "usage": "Fever and pain relief for children. Dosage based on child's weight. See label.",
+        "image": "🧴",
+        "featured": false
+    },
+    {
+        "id": 22,
+        "name": "Probiotic Capsules",
+        "category": "Capsule",
+        "price": 24.99,
+        "usage": "Gut health support. Take 1 capsule daily on empty stomach.",
+        "image": "💊",
+        "featured": false
+    },
+    {
+        "id": 23,
+        "name": "Eye Drops (Lubricating)",
+        "category": "Syrup",
+        "price": 9.99,
+        "usage": "Relief for dry eyes. Apply 1-2 drops to each eye as needed.",
+        "image": "🧴",
+        "featured": false
+    },
+    {
+        "id": 24,
+        "name": "Omega-3 Fish Oil",
+        "category": "Capsule",
+        "price": 19.99,
+        "usage": "Heart and brain health supplement. Take 1-2 capsules daily with meals.",
+        "image": "💊",
+        "featured": false
+    }
+]
