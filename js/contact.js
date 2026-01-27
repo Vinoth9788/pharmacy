@@ -23,7 +23,7 @@ function handleContactSubmit(event) {
     // Simulate email sending (since this is a static site)
     setTimeout(() => {
         // Create mailto link (alternative for static sites)
-        const mailtoLink = `mailto:info@lithanyamedicals.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+        const mailtoLink = `mailto:manikandanramesh235@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
             `Name: ${formData.name}\n` +
             `Email: ${formData.email}\n` +
             `Phone: ${formData.phone || 'Not provided'}\n\n` +
@@ -36,7 +36,7 @@ function handleContactSubmit(event) {
             <i class="fas fa-check-circle"></i>
             <p><strong>Thank you for contacting us!</strong></p>
             <p>We have received your message and will get back to you soon.</p>
-            <p>Alternatively, you can directly email us at: <a href="${mailtoLink}">info@lithanyamedicals.com</a></p>
+            <p>Alternatively, you can directly email us at: <a href="${mailtoLink}">manikandanramesh235@gmail.com</a></p>
         `;
         formMessage.style.display = 'block';
         
